@@ -26,6 +26,6 @@ There are several ways to require a project as a standalone package (by project 
 
 ### Node Modules Trick
 
-If we rename `packages` folder to `node_modules`, Node we'll be able to find a project by name. So code `require('module-b')` will work.
+If we rename `packages` folder to `node_modules` and update the command to `node node_modules/module-a`, Node we'll be able to find a project by name. So code `require('module-b')` in `module-a` will work.
 
 In this case we don't have the prettiest directory structure but it's the simplest way to set up mono repository.
