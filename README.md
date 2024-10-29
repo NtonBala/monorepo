@@ -29,3 +29,7 @@ There are several ways to require a project as a standalone package (by project 
 If we rename `packages` folder to `node_modules` and update the command to `node node_modules/module-a`, Node we'll be able to find a project by name. So code `require('module-b')` in `module-a` will work.
 
 In this case we don't have the prettiest directory structure but it's the simplest way to set up mono repository.
+
+### Symlinking
+
+Is more clear alternative to Node modules trick. To use it run `yarn link` from `module-b` folder and then `yarn link module-b` from `module-a` folder. Now you can run `node packages/module-a`.
