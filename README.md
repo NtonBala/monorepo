@@ -33,3 +33,5 @@ In this case we don't have the prettiest directory structure but it's the simple
 ### Symlinking
 
 Is more clear alternative to Node modules trick. To use it run `yarn link` from `module-b` folder and then `yarn link module-b` from `module-a` folder. Now you can run `node packages/module-a`.
+
+To reverse the process use `yarn unlink` from `module-b` folder and `yarn unlink module-b` from `module-a` folder. Check [Yarn documentation](https://classic.yarnpkg.com/en/docs/cli/link/) fore more info.
