@@ -11,5 +11,9 @@
       "packages/module-a",
       "packages/module-b"
     ]
+  },
+  "engines": {
+    "npm": "1.22.22",
+    "node": "v20.10.0"
   }
 }
