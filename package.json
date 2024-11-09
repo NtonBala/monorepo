@@ -5,5 +5,11 @@
   "repository": "https://github.com/NtonBala/monorepo.git",
   "author": "Anton Balashov <balashov.anton.1983@gmail.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/module-a",
+      "packages/module-b"
+    ]
+  }
 }
