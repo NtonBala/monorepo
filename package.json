@@ -4,5 +4,6 @@
   "main": "index.js",
   "repository": "https://github.com/NtonBala/monorepo.git",
   "author": "Anton Balashov <balashov.anton.1983@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "private": true
 }
