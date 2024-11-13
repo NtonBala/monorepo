@@ -18,3 +18,7 @@ Then run `node packages/module-a` to start the project.
 
 > I am module-a  
 > I am module-b
+
+**Other dependencies**
+
+Project uses [lodash](https://github.com/lodash/lodash) that is prevented from hoisting.
