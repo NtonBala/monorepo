@@ -15,7 +15,7 @@
     ]
   },
   "scripts": {
-    "start": "module-b"
+    "start": "mdb"
   },
   "engines": {
     "npm": "1.22.22",

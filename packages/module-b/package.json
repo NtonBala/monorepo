@@ -6,5 +6,7 @@
   "dependencies": {
     "lodash": "^3"
   },
-  "bin": "./index.js"
+  "bin": {
+    "mdb": "./index.js"
+  }
 }
