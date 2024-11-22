@@ -25,4 +25,7 @@ Project uses [lodash](https://github.com/lodash/lodash) that is prevented from h
 
 **Bin Scripts**
 
-`module-b` file is defined as a _bin script_ and set as `"start"` script in root `package.json`. So to run `module-b` locally run `yarn start` at the root.
+`module-b` file is defined as a _bin script_.
+
+It is set as `"start"` script in root `package.json`. So to run `module-b` locally run `yarn start` at the root.
+It is also set as `"start"` script in `module-a` `package.json`. You can run it by running `yarn start` from `packages/module-a` folder.
