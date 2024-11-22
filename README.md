@@ -22,3 +22,7 @@ Then run `node packages/module-a` to start the project.
 **Other dependencies**
 
 Project uses [lodash](https://github.com/lodash/lodash) that is prevented from hoisting.
+
+**Bin Scripts**
+
+`module-b` file is defined as a _bin script_ and set as `"start"` script in root `package.json`. So to run `module-b` locally run `yarn start` at the root.
